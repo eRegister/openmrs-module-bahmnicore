@@ -15,7 +15,7 @@
         <module>bahmnicore-omod</module>
         <module>reference-data</module>
         <module>admin</module>
-        <module>vagrant-deploy</module>
+<!--        <module>vagrant-deploy</module> -->
         <module>bahmni-mapping</module>
         <module>obs-relation</module>
         <module>bahmni-test-commons</module>
@@ -617,7 +617,7 @@
         </repository>
         <repository>
             <id>central</id>
-            <url>http://repo1.maven.org/maven2</url>
+            <url>https://repo1.maven.org/maven2</url>
             <name>Repository for dependencies</name>
             <snapshots>
                 <enabled>true</enabled>
@@ -627,7 +627,7 @@
         <repository>
             <id>spring-maven-release</id>
             <name>Spring Maven Release Repository</name>
-            <url>http://maven.springframework.org/release</url>
+            <url>https://maven.springframework.org/release</url>
             <releases>
                 <updatePolicy>interval:10080</updatePolicy>
             </releases>
@@ -645,7 +645,7 @@
             <name>The "public-jboss" repository group provides a combined view all JBoss community project artifacts
             </name>
             <layout>default</layout>
-            <url>http://repository.jboss.org/nexus/content/groups/public-jboss</url>
+            <url>https://repository.jboss.org/nexus/content/groups/public-jboss</url>
             <releases>
                 <updatePolicy>interval:10080</updatePolicy>
             </releases>
@@ -653,7 +653,7 @@
         <repository>
             <id>spring-repo</id>
             <name>Spring Maven Repository</name>
-            <url>http://maven.springframework.org/milestone</url>
+            <url>https://maven.springframework.org/milestone</url>
             <releases>
                 <updatePolicy>interval:10080</updatePolicy>
             </releases>
@@ -664,7 +664,7 @@
         <repository>
             <id>openmrs-repo</id>
             <name>OpenMRS Nexus Repository</name>
-            <url>http://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
+            <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
             <releases>
                 <updatePolicy>always</updatePolicy>
             </releases>
@@ -680,7 +680,7 @@
     <repository>
           <id>repo.mybahmni.org-release</id>
           <name>bahmni-artifactory-release</name>
-          <url>http://repo.mybahmni.org.s3.amazonaws.com/artifactory/release</url>
+          <url>https://repo.mybahmni.org.s3.amazonaws.com/artifactory/release</url>
       </repository>      
         <repository>
             <id>rubygems-releases</id>
@@ -690,11 +690,11 @@
         <!-- dcm4chee and evereset framework repository -->
         <repository>
             <id>dcm4che</id>
-            <url>http://dcm4che.org/maven2</url>
+            <url>https://dcm4che.org/maven2</url>
         </repository>
         <repository>
             <id>marc-te-main</id>
-            <url>http://te.marc-hi.ca/mvn</url>
+            <url>https://te.marc-hi.ca/mvn</url>
         </repository>
         <!-- dcm4chee and evereset framework repository -->
 
@@ -702,23 +702,23 @@
     <pluginRepositories>
         <pluginRepository>
             <id>central</id>
-            <url>http://repo1.maven.org/maven2</url>
+            <url>https://repo1.maven.org/maven2</url>
             <name>Repository for plugins</name>
         </pluginRepository>
         <pluginRepository>
             <id>spring-maven-release</id>
             <name>Spring Maven Release Repository</name>
-            <url>http://maven.springframework.org/release</url>
+            <url>https://maven.springframework.org/release</url>
         </pluginRepository>
         <pluginRepository>
             <id>spring-maven-milestone</id>
             <name>Spring Maven Milestone Repository</name>
-            <url>http://maven.springframework.org/milestone</url>
+            <url>https://maven.springframework.org/milestone</url>
         </pluginRepository>
         <pluginRepository>
             <id>openmrs-repo</id>
             <name>OpenMRS Nexus Repository</name>
-            <url>http://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
+            <url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
